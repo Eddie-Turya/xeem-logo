@@ -1,9 +1,26 @@
 {
   "name": "XEEMLET",
   "symbol": "XEEM",
-  "description": "XEEMLET official utility token",
+  "description": "XEEMLET Token powered by BeemX Chain, designed for premium staking and utility on Solana.",
   "image": "https://eddie-turya.github.io/xeem-logo/index.png",
-  "external_url": "https://beemxchain.io",
-  "seller_fee_basis_points": 0,
-  "attributes": []
+  "attributes": [
+    { "trait_type": "Category", "value": "Utility Token" },
+    { "trait_type": "Network", "value": "Solana" },
+    { "trait_type": "Project", "value": "BeemX Chain" }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://eddie-turya.github.io/xeem-logo/index.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "YOUR_WALLET_ADDRESS_HERE",
+        "share": 100
+      }
+    ]
+  }
 }
